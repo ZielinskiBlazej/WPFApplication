@@ -11,9 +11,6 @@ public partial class Door : INotifyPropertyChanged
     public string? dname;
     public string? dmodel;
     public decimal? dprice;
-    //public string? Dname { get; set; }
-    //public string? Dmodel {  get; set; }
-    //public decimal? Dprice {  get; set; }
     public string? Dname
     {
         get

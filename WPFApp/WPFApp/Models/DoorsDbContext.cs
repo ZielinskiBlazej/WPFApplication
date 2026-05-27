@@ -6,7 +6,7 @@ namespace WPFApp.Models;
 
 public partial class DoorsDbContext : DbContext
 {
-    // To check -> maybe I should put connection string in PATH??
+    // To check -> maybe I should put connection string in PATH???
     private readonly string _connectionString = "Server=BLASIUS2086\\SQLEXPRESS;Initial Catalog=DoorsDB;Integrated Security=True;User ID=sa;Password=[password];TrustServerCertificate=true";
 
     public DoorsDbContext()

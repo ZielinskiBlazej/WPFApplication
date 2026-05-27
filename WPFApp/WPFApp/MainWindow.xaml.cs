@@ -122,7 +122,7 @@ namespace WPFApp
                     "Edition warning", MessageBoxButton.YesNo, MessageBoxImage.Stop);
                 if (editResult == MessageBoxResult.Yes)
                 {
-                    
+                    // Error handler for empty fields in edited item
                     try
                     {
                         if (TextB_Name.Text == null
